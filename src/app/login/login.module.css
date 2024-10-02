@@ -1,0 +1,114 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+  }
+  
+  .customSelectTrigger {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .customSelectTrigger:hover {
+    border-color: #7c3aed;
+  }
+  
+  .customSelectContent {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customSelectContent .shadcn-SelectItem {
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .customSelectContent .shadcn-SelectItem:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #6d28d9;
+  }
+  
+  .signupPrompt {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .signupPrompt a {
+    color: #7c3aed;
+    text-decoration: none;
+  }
+  
+  .signupPrompt a:hover {
+    text-decoration: underline;
+  }
+  
